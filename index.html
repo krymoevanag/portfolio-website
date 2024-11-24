@@ -3,76 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page landing- odin project</title>
+    <meta name="author" content="Evans Kirimi">
+    <title>Evans Kirimi - Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-    <div class="header">
-        <div class="header-items">
-            <h1 id="logo"> THE PIONEERS</h1>
-            <ul class="header-links">
-                <li><a href="#"> About</a></li>
-                <li><a href="#">Contacts</a></li>
-                <li><a href="#">Help</a></li>
+    <header class="header">
+        <div class="container">
+            <h1>Evans Kirimi</h1>
+            <p>Computer Science Student | Web Developer | AI Enthusiast</p>
+        </div>
+    </header>
+
+    <section class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="profile-section">
+                <img src="images/my profile.jpg" alt="Evans Kirimi" class="profile-img">
+                <p>
+                    I am a third-year Computer Science student with a strong foundation in programming, algorithms, and software development. I’ve worked on several personal projects focused on web development. Currently, I’m exploring areas like AI, data science, and cloud computing. I am eager to contribute to real-world projects and learn more along the way!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills">
+        <div class="container">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li><strong>Languages:</strong> Python, HTML, CSS, JavaScript</li>
+                <li><strong>Tools & Technologies:</strong> Git, GitHub, Firebase, Visual Studio Code</li>
+                <li><strong>Areas of Interest:</strong> AI, Data Science, Cloud Computing, Networking</li>
             </ul>
         </div>
-        <div class="header-items">
-            <div class="header-contents">
-                <div class="hitem">
-                    <h1>Welcome to the pioneers</h1>
-                    <p>The pioneers is the home of growth. Our motto is <em>Tujijenge tujikuze</em> meaning lets build ourselves for growth. Our main target is to empower self growth through investing little of our funds through savings to build future shareholders and inverstors for we know wecreate our own future. <strong id="welcome">join us today and lets build the future tongether <em>#The first 11</em>></strong></p>
-                    <button id="signup">Sign up</button>
-                    <button id="login">Log in</button>
+    </section>
+
+    <section class="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="project-cards">
+                <div class="project-card">
+                    <h3>Basic Recipe Webpage</h3>
+                    <p><strong>Technologies Used:</strong> HTML, CSS, JavaScript</p>
+                    <p>A webpage to browse and search for different recipes. Built to enhance my skills in web development and interactivity.</p>
                 </div>
-                <div class="hitem">
-                    <img class="icon" src="images/pioneer.jpg" alt="pioneer image">
+                <div class="project-card">
+                    <h3>Group Profile Webpage</h3>
+                    <p><strong>Technologies Used:</strong> HTML, CSS, JavaScript</p>
+                    <p>A webpage to showcase a group's members, activities, and history. Focused on dynamic features and responsive design.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Portfolio Website</h3>
+                    <p><strong>Technologies Used:</strong> HTML, CSS, JavaScript</p>
+                    <p>My personal portfolio website, showcasing my projects and skills, created to learn more about web development.</p>
                 </div>
             </div>
         </div>
-    </div>
-    </div>
+    </section>
 
-    <div class="container">    
-        <div class="bio">   
-             <h1 id="we" >We are happy members and pround to be one team.</h1>
-             <div class="us">
-                        <div class="box">
-            <img id="i" src="images/WhatsApp Image 2024-09-20 at 11.50.26.jpeg" alt="picture of me">
-            <div class="text">I am a happy member</div>
-            
+    <section class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>If you want to collaborate or simply chat about tech, feel free to reach out!</p>
+            <p>Email: <a href="mailto:kirimievansgitonga@gmail.com">kirimievansgitonga@gmail.com</a></p>
+            <p>Phone: 0708873060 / 0796649625</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/evans-kirimi" target="_blank">Evans Kirimi</a></p>
+            <p>GitHub: <a href="https://github.com/krymoevanag" target="_blank">krymoevanag</a></p>
+            <button class="download-btn" onclick="window.location.href='assets/personal%20CV.pdf'">Download My CV</button>
         </div>
+    </section>
 
-        <div class="box">
-            <img id="i" src="images/WhatsApp Image 2024-10-04 at 17.01.18.jpeg" alt="">
-            <div class="text">Every step of the way encouraging one another. This has indeed put a smile on our faces.</div>
-        </div>
-        <div class="box">
-            <img id="i" src="images/WhatsApp Image 2024-10-04 at 17.01.50.jpeg" alt="../">
-            <div class="text">poverty is the worst enemy. Join us and let us battkle thisb shame tongether. Money is the solution and its the mother of mpdern whealth.</div>
-        </div>
-        <div class="box">
-            <img id="i" src="images/pioneer.jpg" alt="">
-            <div class="text">We are THE PIONEERS -the first and the always.</div>
-        </div>
-             </div>
-
-
-
-
-    </div>
-    <div class="container">
-        <div class="join">
-            <div class="connect"><div>
-                <h2>It's time to turn it on.</h2>
-                join us today and lets create the magic 
-            </div>
-            <button id="join"> join now</button>
-        </div>
-        </div>
-    </div>
     <footer>
-        copyright&#169;2024 KrymoevanaG1
+        <div class="container">
+            <p>&copy; 2024 Evans Kirimi. All rights reserved.</p>
+        </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
